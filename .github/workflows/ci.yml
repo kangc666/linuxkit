@@ -134,6 +134,7 @@ jobs:
 
     - name: Symlink Linuxkit
       run: |
+        #----
         sudo ln -s `pwd`/lkt/linuxkit-amd64-linux /usr/local/bin/linuxkit
 
     - name: Run Tests
